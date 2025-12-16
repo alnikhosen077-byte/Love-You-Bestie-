@@ -1,0 +1,11 @@
+ // Surprise popup message
+window.onload = function() {
+  setTimeout(() => {
+    alert("Happy 3 Years, Elin! 🥳💖 You are the best!");
+  }, 1000);
+}
+
+// Click gallery to show secret memory
+document.getElementById("gallery").addEventListener("click", () => {
+  alert("Remember our first coffee trip? ☕😊");
+});

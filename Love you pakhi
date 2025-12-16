@@ -1,0 +1,91 @@
+/friendship-website
+    index.html
+    style.css
+    script.js
+    /assets
+        photo1.jpg
+        photo2.jpgscript.jsindex.htmlstyle.css<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 3 Years, Elin & Anik!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎉 Happy 3 Years of Friendship! 🎉</h1>
+  </header>
+
+  <section id="gallery">
+    <h2>Our Memories</h2>
+    <div class="photos">
+      <img src="assets/photo1.jpg" alt="Memory 1">
+      <img src="assets/photo2.jpg" alt="Memory 2">
+    </div>
+  </section>
+
+  <section id="timeline">
+    <h2>Timeline of Friendship</h2>
+    <ul>
+      <li>2022: First met at college 😄</li>
+      <li>2023: Trip to beach 🌊</li>
+      <li>2024: College farewell 🥹</li>
+    </ul>
+  </section>
+
+  <section id="message">
+    <h2>Special Message for Elin 💖</h2>
+    <p>Elin, তুই আমার life-এর সবচেয়ে সুন্দর বন্ধু! ৩ বছরের জন্য ধন্যবাদ। সোনার মতো বন্ধু তুই।</p>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Anik</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>// Surprise popup message
+window.onload = function() {
+  setTimeout(() => {
+    alert("Happy 3 Years, Elin! 🥳💖 You are the best!");
+  }, 1000);
+}
+
+// Click gallery to show secret memory
+document.getElementById("gallery").addEventListener("click", () => {
+  alert("Remember our first coffee trip? ☕😊");
+});body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  padding: 20px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+section {
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.photos img {
+  width: 45%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 10px;
+  background: #222;
+  color: #fff;
+}

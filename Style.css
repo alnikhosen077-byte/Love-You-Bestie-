@@ -1,0 +1,34 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  padding: 20px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+section {
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.photos img {
+  width: 45%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 10px;
+  background: #222;
+  color: #fff;
+}
